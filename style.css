@@ -1,0 +1,115 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: lightpink;
+    font-size: 15px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    right: 5px;
+    padding: 10px 20px;
+}
+li{
+    padding-right: 20;
+}
+.links{
+    text-decoration: black;
+    cursor: pointer;
+}
+#name{
+    color: rgb(10, 32, 32);
+    font-size: 50px;
+    padding-right: 150px;
+}
+#home{
+    display: flex;
+    background-color: lightblue;
+    height: 70px;
+    padding-left:140px;
+   text-align: center;
+    font-size: 35px;
+}
+#profilepic{
+    height:160px ;
+    width:160px ;
+    margin:10px 10px 10px 10px ;
+    border-radius:80px ;
+    position:relative;
+}
+#about{
+    display: flexbox;
+    align-items: center;
+}
+#work{
+    background-color: rgb(17, 128, 136);
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+hr{
+    width:300px ;
+}
+.project{
+    background-color: lightgreen;
+    color: black;
+    height: 100px; ;
+    width:200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:space-around;
+    border-radius:10px;
+
+}
+#work p hr{
+    margin-bottom: 10px;
+}
+#work div{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    width: 100%;
+}
+li{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    list-style: none;
+    padding:3px ;
+
+}
+progress[value]{
+    height:15px;
+    width:300px;
+    -webkit-appearance:none ;
+}
+#resume{
+    padding: 5px 0 5px 0;
+    font-size: 15px;
+    text-align: center;
+}
+#contact,form{
+    background-color:white ;
+    color:rgb(44, 11, 11) ;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    padding: 3px 0 3px 0;
+}
+.input{
+    line-height:12px ;
+    width:250px ;
+    border-radius:1px ;
+    border-color:black ;
+    margin:10px 0 ;
+}
+
+
+    
